@@ -29,3 +29,17 @@ Convection             |
 :-------------------------:|
 ![](images/advdiff/swirl.gif) |
 
+# Navier-Stokes using Finite-Volumes and the Simple-algorithm
+This project solves the 2D unsteady and steady Navier_Stokes equations on a staggered cartesian grid. The convection term can be discretized using a upwind, central or hybrid differencing scheme. The diffusion term is discretized using central differences and the time derivative is discretized using the Adams_Moulton scheme with variable time stepping. The results are stored in the .vtk file format, which makes post processing in ParaView possible. Next a comparison of the velocity with data from Ghia et al. is shown for a steady state solution and a subsequent animation of u-velocity component with streamlines for the unsteady solution. All simulations have Re=100.
+
+Steady-state            |
+:-------------------------:|
+![](images/simple/post_Re100_u.png) |
+![](images/advdiff/post_Re100_u.png) |
+
+
+Steady-state            |
+:-------------------------:|
+![](images/simple/animation_re100.gif) |
+
+
