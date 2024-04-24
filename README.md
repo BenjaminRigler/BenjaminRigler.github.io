@@ -42,4 +42,9 @@ Steady-state            |
 :-------------------------:|
 ![](images/simple/animation_re100.gif) |
 
+# GPU-Accelerated Euler-Solver
+This project is based on another project done during the course Numerical Methods for Fluid Mechanics at TU Wien. The original goal was to implement the Jameson-algorithm to solve the Euler equations over canal with a circular bump in Python. However this code didn't fully work, so I decided to give it another run in my free time. I reimplemented the solver in C++ and could fix the issue. Furthermore I tried to improve performance by using GPU computing (CUDA). It seems that the code running on the GPU has a higher floating point error than the code running on the CPU, which can be fixed by increasing artificial diffusion. Next some results are shown, however the project is not fully finished yet, so proper validation and verification with literature and a performance benchmark is still pending.
 
+Flow over circular bump           |
+:-------------------------:|
+![](images/euler/bump.gif) |
