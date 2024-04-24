@@ -22,10 +22,10 @@ The goal of this project was to experience the challenges of dealing with non-or
 
 Diffusion             |
 :-------------------------:|
-![](images/advconv/diff_meshComp.png)
-![](images/advconv/diff_lineplot.png)
+![](images/advdiff/diff_meshComp.png)
+![](images/advdiff/diff_lineplot.png)
 
 Convection             |
 :-------------------------:|
-![](images/advconv/swirl.gif)
+![](images/advdiff/swirl.gif)
 
