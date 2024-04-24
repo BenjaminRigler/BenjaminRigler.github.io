@@ -34,8 +34,8 @@ This project solves the 2D unsteady and steady Navier_Stokes equations on a stag
 
 Steady-state            |
 :-------------------------:|
-![](images/simple/post_Re100_u.png) |
-![](images/advdiff/post_Re100_u.png) |
+![](images/simple/post_Re100_u_v2.png) |
+![](images/simple/post_Re100_v_v2.png) |
 
 
 Steady-state            |
