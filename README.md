@@ -9,5 +9,5 @@ This project solves the Navier-Stokes equations using the artificial compressibi
 
 u-velocity             |  v-velocity
 :-------------------------:|:-------------------------:
-![](images/arti_comp/u_contour.png)  |  ![](images/arti_comp/u_contour.png)
+![](images/arti_comp/u_contour.png)  |  ![](images/arti_comp/v_contour.png)
 ![](images/arti_comp/u_line.png)  |  ![](images/arti_comp/v_line.png)
