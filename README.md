@@ -48,3 +48,7 @@ This project is based on another project done during the course Numerical Method
 Flow over circular bump           |
 :-------------------------:|
 ![](images/euler/bump.gif) |
+
+Flow in nozzle           |
+:-------------------------:|
+![](images/euler/nozzle.gif) |
