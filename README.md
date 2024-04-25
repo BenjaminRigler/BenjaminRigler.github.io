@@ -57,10 +57,10 @@ Flow in nozzle           |
 
 # Literature
 
-Flow over circular bump           |
+Literature overview           |
 :-------------------------:|
- Anderson, J. D. (1995). Computational fluid dynamics : the basics with applications (International ed.). McGraw-Hill. |
- Moukalled, F., Mangani, L., & Darwish, M. (2016). The finite volume method in computational fluid dynamics : an advanced introduction with OpenFOAM® and Matlab® Springer. |
- Versteeg, H. K., & Malalasekera, W. (2007). An introduction to computational fluid dynamics : the finite volume method (2. ed.). Pearson Prentice Hall. |
- Ghia, U., Ghia, K. ., & Shin, C. . (1982). High-Re solutions for incompressible flow using the Navier-Stokes equations and a multigrid method. Journal of Computational Physics, 48(3), 387–411. |
- Jameson, Antony & Schmidt, W. & Turkel, Eli. (1981). Solutions of the Euler Equations by Finite Volume Methods Using Runge-Kutta Time-Stepping Schemes. AIAA paper. 1259. |
+ [1] Anderson, J. D. (1995). Computational fluid dynamics : the basics with applications (International ed.). McGraw-Hill. |
+ [2] Moukalled, F., Mangani, L., & Darwish, M. (2016). The finite volume method in computational fluid dynamics : an advanced introduction with OpenFOAM® and Matlab® Springer. |
+ [3] Versteeg, H. K., & Malalasekera, W. (2007). An introduction to computational fluid dynamics : the finite volume method (2. ed.). Pearson Prentice Hall. |
+ [4] Ghia, U., Ghia, K. ., & Shin, C. . (1982). High-Re solutions for incompressible flow using the Navier-Stokes equations and a multigrid method. Journal of Computational Physics, 48(3), 387–411. |
+ [5] Jameson, Antony & Schmidt, W. & Turkel, Eli. (1981). Solutions of the Euler Equations by Finite Volume Methods Using Runge-Kutta Time-Stepping Schemes. AIAA paper. 1259. |
