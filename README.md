@@ -56,7 +56,6 @@ Flow in nozzle           |
 ![](images/euler/nozzle.gif) |
 
 # Literature
-adf
 
 Flow over circular bump           |
 :-------------------------:|
