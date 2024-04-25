@@ -3,8 +3,8 @@ The goal of this project is to solve instationary quasi-one-dimensional flow in 
 
 Nozzle flow             |
 :-------------------------:|
-![](images/nozzle_flow/geometry.png)
-![](images/nozzle_flow/results.png)
+![](images/nozzle_flow/geometry.png) |
+![](images/nozzle_flow/results.png) |
 
 # Navier-Stokes using artificial compressibility
 This project solves the Navier-Stokes equations using the artificial compressibility method. A simple pre- and post-processor is also implemented within the program. The results for the single lid driven cavity problem are shown next. Upon comparison with results from [4] the implementation seems correct.
