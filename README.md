@@ -56,7 +56,7 @@ Flow in nozzle           |
 ![](images/euler/nozzle.gif) |
 
 # Literature
-|
+Literature overview|
 :-------------------------:|
 [1] Anderson, J. D. (1995). Computational fluid dynamics : the basics with applications (International ed.). McGraw-Hill. |
 [2] Moukalled, F., Mangani, L., & Darwish, M. (2016). The finite volume method in computational fluid dynamics : an advanced introduction with OpenFOAM® and Matlab® Springer. |
