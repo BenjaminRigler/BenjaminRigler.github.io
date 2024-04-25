@@ -45,7 +45,7 @@ Unsteady            |
 ![](images/simple/animation_re100.gif) |
 
 # GPU-Accelerated Euler-Solver
-This project is based on another project completed during the course Numerical Methods for Fluid Mechanics at TU Wien. The original goal was to implement the Jameson-algorithm to solve the Euler equations in a tunnel with a circular bump in Python. However this code didn't fully work, so I decided to give it another try in my free time. I reimplemented the solver in C++ and could fix the issues occuring in previous code. Furthermore the performance is improved by using GPU computing (CUDA). It seems that the code running on the GPU has a higher floating point error than the code running on the CPU, which can be fixed by increasing artificial diffusion. Next some results are shown, however the project is not fully finished yet, so proper validation and verification with literature and a performance benchmark is still pending.
+This project is based on another project completed during the course Numerical Methods for Fluid Mechanics at TU Wien. The original goal was to implement the Jameson-algorithm [5] to solve the Euler equations in a tunnel with a circular bump in Python. However this code didn't fully work, so I decided to give it another try in my free time. I reimplemented the solver in C++ and could fix the issues occuring in previous code. Furthermore the performance is improved by using GPU computing (CUDA). It seems that the code running on the GPU has a higher floating point error than the code running on the CPU, which can be fixed by increasing artificial diffusion. Next some results are shown, however the project is not fully finished yet, so proper validation and verification with literature and a performance benchmark is still pending.
 
 Flow over circular bump           |
 :-------------------------:|
@@ -56,7 +56,9 @@ Flow in nozzle           |
 ![](images/euler/nozzle.gif) |
 
 # Literature
-[1] Anderson, J. D. (1995). Computational fluid dynamics : the basics with applications (International ed.). McGraw-Hill.
-[2] Moukalled, F., Mangani, L., & Darwish, M. (2016). The finite volume method in computational fluid dynamics : an advanced introduction with OpenFOAM® and Matlab® Springer.
-[3] Versteeg, H. K., & Malalasekera, W. (2007). An introduction to computational fluid dynamics : the finite volume method (2. ed.). Pearson Prentice Hall.
-[4] Ghia, U., Ghia, K. ., & Shin, C. . (1982). High-Re solutions for incompressible flow using the Navier-Stokes equations and a multigrid method. Journal of Computational Physics, 48(3), 387–411. 
+:-------------------------:|
+[1] Anderson, J. D. (1995). Computational fluid dynamics : the basics with applications (International ed.). McGraw-Hill. |
+[2] Moukalled, F., Mangani, L., & Darwish, M. (2016). The finite volume method in computational fluid dynamics : an advanced introduction with OpenFOAM® and Matlab® Springer. |
+[3] Versteeg, H. K., & Malalasekera, W. (2007). An introduction to computational fluid dynamics : the finite volume method (2. ed.). Pearson Prentice Hall. |
+[4] Ghia, U., Ghia, K. ., & Shin, C. . (1982). High-Re solutions for incompressible flow using the Navier-Stokes equations and a multigrid method. Journal of Computational Physics, 48(3), 387–411. |
+[5] Jameson, Antony & Schmidt, W. & Turkel, Eli. (1981). Solutions of the Euler Equations by Finite Volume Methods Using Runge-Kutta Time-Stepping Schemes. AIAA paper. 1259. |
